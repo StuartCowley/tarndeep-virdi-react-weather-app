@@ -1,0 +1,36 @@
+:root {
+  --light-blue: rgb(173, 216, 230);
+  --tekhelet: #41337aff;
+  --air-superiority-blue: rgb(110, 164, 191);
+  --mint-green: #c2efebff;
+  --honeydew: #ecfee8ff;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.location {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--light-blue);
+  color: white;
+  background-image: url("../../public/night2.jpg");
+  background-position: center;
+}
